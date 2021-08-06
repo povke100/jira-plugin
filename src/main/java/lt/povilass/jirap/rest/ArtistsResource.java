@@ -46,6 +46,7 @@ public class ArtistsResource {
 
         ArtistsDto artistsDto;
         if (cache.containsKey(search)) {
+            log.info("getMessage. Search key is found, returning result from cache.");
             artistsDto = cache.get(search);
         } else {
             artistsDto = artistsService.getArtists(search);

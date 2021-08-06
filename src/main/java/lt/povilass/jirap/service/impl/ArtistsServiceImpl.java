@@ -17,7 +17,6 @@ import java.util.List;
 @Service
 public class ArtistsServiceImpl implements ArtistsService {
 
-    private static final Logger log = LoggerFactory.getLogger(ArtistsServiceImpl.class);
 
     private final ITunesService iTunesService;
 
