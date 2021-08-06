@@ -1,0 +1,13 @@
+JIRA REST Artists plugin.
+
+This plugin allows to search iTunes for artists and returns then in JSON format.
+
+To use this plugin simply make a request to a following url:
+
+ * http://<jira-location>/jira/rest/artists-resource/1.0/artists?search=<search-term>
+
+NOTE: search query param is mandatory. Omitting this parameter, leaving it empty or blank
+will return Bad request (400) response.
+
+
+

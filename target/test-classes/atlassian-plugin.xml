@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<atlassian-plugin key="lt.povilass.jirap-tests" name="jirap" plugins-version="2"> 
+  <plugin-info> 
+    <description>This is the lt.povilass:jirap plugin for Atlassian JIRA.</description>  
+    <version>1.0.0-SNAPSHOT</version>  
+    <vendor name="Example Company" url="http://www.example.com/"/> 
+  </plugin-info>  
+  <!-- from our base plugin -->  
+  <component-import key="myComponent" interface="lt.povilass.jirap.plugin.api.JiraPComponent"/>  
+  <!-- from the product container -->  
+  <component-import key="applicationProperties" interface="com.atlassian.sal.api.ApplicationProperties"/>  
+  <component key="jira-p-wired-test" class="it.lt.povilass.jirap.JiraPWiredTest" public="true">
+    <interface>it.lt.povilass.jirap.JiraPWiredTest</interface>
+    <service-properties>
+      <entry key="inProductTest" value="true"/>
+    </service-properties>
+  </component>
+</atlassian-plugin>

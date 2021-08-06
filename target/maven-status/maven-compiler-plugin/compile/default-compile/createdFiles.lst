@@ -1,0 +1,12 @@
+lt\povilass\jirap\itunes\dto\ITunesArtistDto.class
+lt\povilass\jirap\rest\dto\ArtistDto.class
+lt\povilass\jirap\config\JiraPJavaConfig.class
+lt\povilass\jirap\service\impl\ArtistsServiceImpl.class
+lt\povilass\jirap\itunes\impl\ITunesServiceImpl.class
+lt\povilass\jirap\itunes\ITunesService.class
+lt\povilass\jirap\itunes\dto\ITunesArtistsDto.class
+lt\povilass\jirap\plugin\impl\JiraPComponentImpl.class
+lt\povilass\jirap\service\ArtistsService.class
+lt\povilass\jirap\plugin\api\JiraPComponent.class
+lt\povilass\jirap\rest\dto\ArtistsDto.class
+lt\povilass\jirap\rest\ArtistsResource.class
