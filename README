@@ -2,6 +2,13 @@ JIRA REST Artists plugin.
 
 This plugin allows to search iTunes for artists and returns then in JSON format.
 
+To install plugin:
+
+ * include plugin project folder into <atlassian-home-foler>/bin
+ * open command line inside plugin project folder
+ * run atlas-run command
+
+
 To use this plugin simply make a request to a following url:
 
  * http://<jira-location>/jira/rest/artists-resource/1.0/artists?search=<search-term>
